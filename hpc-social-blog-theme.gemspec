@@ -1,5 +1,5 @@
 Gem::Specification.new do |spec|
-  spec.name          = "hpc-social-theme"
+  spec.name          = "hpc-social-blog-theme"
   spec.version       = "0.0.1"
   spec.authors       = ["Vanessa Sochat"]
   spec.email         = ["vsoch@users.noreply.github.com"]
