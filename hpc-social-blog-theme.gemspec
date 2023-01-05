@@ -9,12 +9,4 @@ Gem::Specification.new do |spec|
   spec.license       = "MIT"
 
   spec.files         = `git ls-files -z`.split("\x0").select { |f| f.match(%r!^(assets|_layouts|_includes|pages|LICENSE|index.html)!i) }
-
-  spec.required_ruby_version = '~> 2.0'
-
-  spec.add_runtime_dependency 'github-pages',
-  spec.add_runtime_dependency "jekyll-feed",
-  spec.add_runtime_dependency "jekyll-paginate",
-  spec.add_runtime_dependency "jekyll-sitemap",
-  spec.add_runtime_dependency "jekyll-relative-links",
 end
