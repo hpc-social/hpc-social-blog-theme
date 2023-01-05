@@ -9,4 +9,5 @@ Gem::Specification.new do |spec|
   spec.license       = "MIT"
 
   spec.files         = `git ls-files -z`.split("\x0").select { |f| f.match(%r!^(assets|_layouts|_includes|pages|LICENSE|index.html)!i) }
+  spec.files         += Dir['pages/*.md'] + Dir['pages/*.json'] + Dir['pages/*.xml']
 end

@@ -15,4 +15,14 @@ And then in your `_config.yml`:
 theme: hpc-social-blog-theme
 ```
 
-via [instructions from this article](https://github.blog/2017-11-29-use-any-theme-with-github-pages/)
+And then install:
+
+```bash
+$ bundle install
+```
+
+If you need to update after install:
+
+```bash
+$ bundle update
+```
